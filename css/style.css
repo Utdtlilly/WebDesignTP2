@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Diphylleia&family=Roboto:wght@200&family=Ubuntu:wght@500&display=swap');
+
+
+
+body {margin: 0;
+    font-family: 'Roboto', sans-serif;}
+
+header {color: white;
+    background-color: #0047A0;
+    height: 75.90vh;
+transition-property: background-color;
+transition-duration: 2500ms;}
+header:hover{ background-color: #CD2E3A;}
+
+
+main > .container-fluid:nth-child(2) { height: 100vh; padding-top: 5vh;}
+
+header , main {    padding: 0 8.33vw !important;}
+
+.navbar { background-color: white;}
+
+textarea { resize: none;}
+/*this is for the textarea not to be resizable anymore*/
+
+.modal-title { background-color: white; color: black !important;
+padding: 0 10px  !important;}
+
+main > .container-fluid { height: 20vh;}
+
+header>div, main  .container-fluid > div, .carousel-inner, 
+.carousel-item { height: 100%;}
+
+
+
+.carousel-inner .carousel-item img  {height: 100%; object-fit: cover;}
+
+h1, h2, h6 {font-family: 'Ubuntu', serif;}
+
+h1,h2,h3 { margin-top: 0;}
+
+h1 {font-size: 40px;
+    vertical-align: top;}
+
+h1,h3,header p {line-height: 125%;}
+
+header p {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.75);}
+
+h3 {color:#CD2E3A;font-size: 16px;letter-spacing: 3px;}
+
+h6{font-size: 30px; margin-top: 7vh;}
+
+
+header a {
+    font-size: 20px;
+    width: 37.5%;
+
+    display: block;
+
+    padding: 11.5px 0;
+    border-radius: 5px;}
+
+main a {
+        font-size: 20px;
+        width: 37.5%;
+    
+        display: block;
+    
+        padding: 11.5px 0;
+        border-radius: 5px;}
+
+
+/*putting space between the carousel and the first main paragraph*/
+h2 {margin-top: 5vh;}
+.carousel-item{padding-top: 10vh;}
+
+/*making fingerheart smaller and changing position*/
+main img:last-child {height: 40vh; margin-bottom: 10vh; margin-left: 15vh;}
+
+
+footer{background-color: #CD2E3A;height: 125px;
+    width: 1440px;color: white;}
+
+footer p{padding-top: 7vh;}
+
+@media (max-width: 768px) {header { height: auto; padding: 40px}}
